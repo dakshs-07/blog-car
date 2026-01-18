@@ -8,8 +8,9 @@ const Footer = () => {
       <Image
         src="/assets/logo.png"
         width={180}
-        height={200}
+        height={100}
         alt="footer image"
+        className='h-auto'
       />
       <p className="text-sm">All rights reserved. Copyright @Daksh</p>
 
