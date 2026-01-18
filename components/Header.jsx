@@ -5,13 +5,16 @@ const Header = () => {
   return (
     <div className="px-5 py-3 md:px-12 lg:px-28">
       <div className="flex justify-between items-center">
-        <Image
-          src="/assets/logo.png"
-          height={100}
-          width={180}
-          alt="logo"
-          className="w-[130] sm:w-auto h-auto"
-        />
+        <a href="/">
+          <Image
+            src="/assets/logo.png"
+            height={100}
+            width={180}
+            alt="logo"
+            className="w-[130] sm:w-auto h-auto"
+          />
+        </a>
+
         <button className="flex items-center gap-2 font-medium py-1 px-3 sm:px-6 border border-solid border-black shadow-[-7px_7px_0px_#2A52BE] cursor-pointer">
           Go Vroom!
         </button>
