@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="flex justify-around flex-col gap-2 sm:gap-0 sm:flex-row bg-blue-200 py-5 items-center">
       <Image
-        src="/assests/maybach.jpg"
+        src="/assets/logo.png"
         width={180}
         height={200}
         alt="footer image"

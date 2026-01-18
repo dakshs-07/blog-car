@@ -7,7 +7,7 @@ const Header = () => {
     <div className="py-5 px-5 md:px-12 lg:px-28">
       <div className="flex justify-between items-center">
         <Image
-          src="/assets/maybach.jpg"
+          src="/assets/logo.png"
           height={200}
           width={180}
           alt="maybach car lets go"
